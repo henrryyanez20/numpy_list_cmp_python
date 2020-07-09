@@ -29,7 +29,9 @@ def ej1():
 
     # List de string
     numeros = [1, -5, 4, 3]
-
+    potencia_2 = lambda x: x**2
+    print(potencia_2(6))
+    
     # 2)
     # Utilice la función map para mapear una lambda expression
     # que retorne la potencia de 2 de cada numero en la lista numeros
