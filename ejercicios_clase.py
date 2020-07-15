@@ -54,8 +54,11 @@ def ej2():
 
     # 2)
     # List de string
-    palabras = ['Inove', 'casa', 'programacion']
-
+    #palabras = ['Inove', 'casa', 'programacion']
+    
+    palabras_len = list(map(len, ['Inove', 'casa', 'programacion']))
+    print(palabras_len)
+    
     # Utilice la función map para mapear una lambda expression
     # que retorne el tamaño (len) de cada texto em cata iteración
     # de la lista de textos
