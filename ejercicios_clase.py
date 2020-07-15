@@ -96,8 +96,8 @@ def ej3():
     # estos números deberán estar entre el rango 1 al 30 representando
     # números posibles de un mes (los números pueden repetirse)
 
-    # dias_mes = [.....]
-
+    dias_mes = [random.randint(1, 30) for x in range(10)]
+    print(dias_mes)
     pass
 
 
