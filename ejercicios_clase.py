@@ -5,7 +5,6 @@ Ejercicios de clase
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
-
 Descripcion:
 Programa creado para poner a prueba los conocimientos
 adquiridos durante la clase
@@ -54,8 +53,8 @@ def ej2():
 
     # 2)
     # List de string
-    palabras = ['Inove', 'casa', 'programacion']
-
+    #palabras = ['Inove', 'casa', 'programacion']
+    
     # Utilice la función map para mapear una lambda expression
     # que retorne el tamaño (len) de cada texto em cata iteración
     # de la lista de textos
@@ -65,7 +64,8 @@ def ej2():
     # Copiar la lambda creada en el paso anterior dentro del map
 
     # palabras_len = list(map....)
-
+    palabras_len = list(map(len, ['Inove', 'casa', 'programacion']))
+    print(palabras_len)
 
 def ej3():
     # Práctica de comprensión de listas
@@ -177,8 +177,8 @@ def ej6():
 
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
-    ej1()
-    # ej2()
+    #ej1()
+    ej2()
     # ej3()
     # ej4()
     # ej5()
