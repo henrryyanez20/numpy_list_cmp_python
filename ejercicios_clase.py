@@ -117,7 +117,11 @@ def ej4():
     list_numeros_str = ['5', '-2', '3', '', '7', 'NaN']
 
     # lista_numeros_int = [.....]
-    lista_filtrada = [int(n) if n.isdigit() == True else 0  for n in list_numeros_str]
+    
+    #lista_filtrada = [int(n) if n.isdigit() == True else 0  for n in list_numeros_str]
+    
+    lista_filtrada = [int(x) if x.lstrip("+-").isdigit() is True else 0 for x in list_numeros_str]
+    
     print(lista_filtrada)
 
     
